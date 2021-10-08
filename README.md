@@ -131,7 +131,7 @@ You can deploy your application to any environment that supports Node 10 or abov
 ```bash
 npm install -g vercel
 vercel
-```
+``` 
 
 If your app can't be exported to a static site, you can use the [vercel-sapper](https://github.com/thgh/vercel-sapper) builder. You can find instructions on how to do so in its [README](https://github.com/thgh/vercel-sapper#basic-usage).
 
