@@ -1,4 +1,4 @@
-/* import * as api from 'api.js';
+import * as api from 'api.js';
 
 export function post(req, res) {
     const user = req.body;
@@ -10,4 +10,4 @@ export function post(req, res) {
         res.setHeader('Content-Type', 'application/json');
         res.end(JSON.stringify(response))
     })
-} */
+}
