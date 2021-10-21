@@ -7,7 +7,9 @@ export function post(req, res) {
         if (response.user) {
             req.session.user = response.user;
         }
+
         res.setHeader('Content-Type', 'application/json');
-        res.end(JSON.stringify(response))
-    })
+
+        res.end(JSON.stringify(response));
+    });
 }
